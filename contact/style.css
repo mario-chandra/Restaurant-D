@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@700;800&display=swap:Bitter&display=swap:Bitter&family=Cairo:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+body{
+  background-color: #ff7448;
+  margin-bottom: 0
+  padding:0
+}
+
+
+.headline{
+
+background-color: #ff7448
+}
+
+/* ANIMATION */
+
+.slide-right{-webkit-animation:slide-right 1s cubic-bezier(.39,.575,.565,1.000) .1s forwards;animation:slide-right 1s cubic-bezier(.39,.575,.565,1.000) .1s forwards}
+.scale-up-center{-webkit-animation:scale-up-center 1s ease-out forwards;animation:scale-up-center 1s ease-out forwards}
+.slide-top{-webkit-animation:slide-top .8s cubic-bezier(.25,.46,.45,.94) both;animation:slide-top .8s cubic-bezier(.25,.46,.45,.94) both;animation:fade-in 1s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in 1s cubic-bezier(.39,.575,.565,1.000) both}
+.fade-in{-webkit-animation:fade-in 1s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in 1s cubic-bezier(.39,.575,.565,1.000) both}
+
+.swing-in-top-fwd {
+	animation: swing-in-top-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 4s both;
+}
+
+
+@keyframes swing-in-top-fwd {
+  0% {
+    transform: rotateX(-100deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}
+
+
+
+@-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+@-webkit-keyframes slide-top{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-100px);transform:translateY(-100px)}}@keyframes slide-top{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-100px);transform:translateY(-100px)}}
+@-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(0);transform:scale(0)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+@-webkit-keyframes slide-right{0%{-webkit-transform:translateX(0);transform:translateX(0)}100%{-webkit-transform:translateX(100px);transform:translateX(100px)}}@keyframes slide-right{0%{-webkit-transform:translateX(0);transform:translateX(0)}100%{-webkit-transform:translateX(100px);transform:translateX(100px)}}
+
+/* top nav */
+
+.header-nav{
+  position: fixed;
+  width: 100%;
+  padding-right: 40px;
+}
+
+.nav-headline{
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+
+.navbar-t{
+  font-size: 14.5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.navbar-t-host{
+  font-size: 14.5px;
+  text-decoration: none;
+  color: #5cce98;
+
+  font-weight: 600;
+}
+
+.button-promo{
+  background-color:#5cce98;
+  border: none;
+  color: #ffffff;
+  font-size: 14.5px;
+  padding: 10px 10px 10px 10px;
+}
+
+.button-promo:hover{
+  background-color: #ffffff;
+  color: #5cce98;
+  transition: 0.4s;
+}
+
+.navbar-t-host:hover{
+  font-size: 14.5px;
+  text-decoration: none;
+  color: #5cce98;
+
+  font-weight: 600;
+}
+
+.navbar-t:hover{
+  text-decoration: none;
+  color: #5cce98;
+  transition: 0.6s;
+}
+
+/* right-nav */
+
+.right-nav{
+  padding-top: 260px;
+}
+
+.nav-img{
+  margin-top: 13px;
+}
+
+/* CONTACT */
+
+.contact{
+  margin-bottom: 100px;
+  width: 45%;
+  padding-top: 50px;
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 150px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.contact-title h1 {
+  margin-bottom: 30px;
+  font-family: 'Dancing Script', cursive;
+  color: #5cce98;
+}
+
+.contact-welcome p {
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 55px;
+  color: #5cce98;
+}
+
+.contact-form{
+  margin-bottom: 10px;
+  margin-left: 65px;
+  padding-left: 30px;
+  border-left: 2px solid #5cce98;
+  text-align: left;
+}
+
+.contact-form input{
+
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid #5cce98;
+  margin-bottom: 5px;
+}
+
+.contact-form label{
+  color: #5cce98;
+}
+
+.form-margin{
+  margin-bottom: 7px;
+}
+
+.form-group textarea{
+  border: 2px solid #5cce98;
+}
+
+
+.submit-form{
+  text-align: center;
+}
+
+.submit-form button{
+  margin-top: 10px;
+  border: 1px solid #5cce98;
+  background-color: #ffffff;
+  color: #5cce98;
+}
+
+
+/* gif */
+
+.gif-dance{
+  position: absolute;
+  margin-left: 400px;
+  width: 45%;
+  top: 760px;
+}
+
+.gif-dance img  {
+  width: 100%
+}
+
+/* FOOTER */
+footer{
+  top: 1300px;
+
+  position: relative;
+  background-color: #5cce98;
+  width: 100%;
+
+}
+
+.footer-display{
+
+  padding-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 80%;
+  color: #ffffff;
+}
+
+
+.footer-title{
+  font-family: 'Dancing Script', cursive;
+  margin-right: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-text{
+
+}
+
+.footer-content{
+  text-align: center;
+  background-color: black;
+
+}
+
+.about{
+  text-align: center;
+
+}
+
+.subscribe{
+  text-align: center;
+}
+
+.content-title{
+  font-family: 'PT Serif', serif;
+  margin-bottom: 30px;
+}
+
+.spam{
+  font-size: 2px;
+}
+
+.email{
+  font-size: 1;
+}
+
+.logo-hori{
+  text-align: center;
+}
+
+.btn-color{
+  color: white;
+
+}
+
+.copyright{
+  text-align: center;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.cv-link{
+   color: #ffffff;
+
+}
+
+.cv-link:hover{
+   color: #ffffff;
+   text-decoration: none;
+   transition: 2s;
+   font-size: 14px;
+}

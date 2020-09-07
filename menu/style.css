@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@700;800&display=swap:Bitter&display=swap:Bitter&family=Cairo:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+body{
+  background-image: url('../img/food/leaves.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+  margin-bottom: 0
+  padding:0
+}
+
+
+.headline{
+
+background-color: #ff7448
+}
+
+/* ANIMATION */
+
+.slide-right{-webkit-animation:slide-right 1s cubic-bezier(.39,.575,.565,1.000) .1s forwards;animation:slide-right 1s cubic-bezier(.39,.575,.565,1.000) .1s forwards}
+.scale-up-center{-webkit-animation:scale-up-center 1s ease-out forwards;animation:scale-up-center 1s ease-out forwards}
+.slide-top{-webkit-animation:slide-top .8s cubic-bezier(.25,.46,.45,.94) both;animation:slide-top .8s cubic-bezier(.25,.46,.45,.94) both;animation:fade-in 1s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in 1s cubic-bezier(.39,.575,.565,1.000) both}
+.fade-in{-webkit-animation:fade-in 1s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in 1s cubic-bezier(.39,.575,.565,1.000) both}
+
+.swing-in-top-fwd {
+	animation: swing-in-top-fwd 5s cubic-bezier(0.175, 0.885, 0.320, 1.275) 4s both;
+}
+
+
+@keyframes swing-in-top-fwd {
+  0% {
+    transform: rotateX(-100deg);
+    transform-origin: top;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg);
+    transform-origin: top;
+    opacity: 1;
+  }
+}
+
+
+
+@-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
+@-webkit-keyframes slide-top{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-100px);transform:translateY(-100px)}}@keyframes slide-top{0%{-webkit-transform:translateY(0);transform:translateY(0)}100%{-webkit-transform:translateY(-100px);transform:translateY(-100px)}}
+@-webkit-keyframes scale-up-center{0%{-webkit-transform:scale(0);transform:scale(0)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes scale-up-center{0%{-webkit-transform:scale(.5);transform:scale(.5)}100%{-webkit-transform:scale(1);transform:scale(1)}}
+@-webkit-keyframes slide-right{0%{-webkit-transform:translateX(0);transform:translateX(0)}100%{-webkit-transform:translateX(100px);transform:translateX(100px)}}@keyframes slide-right{0%{-webkit-transform:translateX(0);transform:translateX(0)}100%{-webkit-transform:translateX(100px);transform:translateX(100px)}}
+
+/* top nav */
+
+.header-nav{
+  position: fixed;
+  width: 100%;
+  padding-right: 40px;
+}
+
+.nav-headline{
+  margin-top: 10px;
+  margin-right: 50px;
+}
+
+
+.navbar-t{
+  font-size: 14.5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.navbar-t-host{
+  font-size: 14.5px;
+  text-decoration: none;
+  color: #5cce98;
+
+  font-weight: 600;
+}
+
+.button-promo{
+  background-color:#5cce98;
+  border: none;
+  color: #ffffff;
+  font-size: 14.5px;
+  padding: 10px 10px 10px 10px;
+}
+
+.button-promo:hover{
+  background-color: #ffffff;
+  color: #5cce98;
+  transition: 0.4s;
+}
+
+.navbar-t-host:hover{
+  font-size: 14.5px;
+  text-decoration: none;
+  color: #5cce98;
+
+  font-weight: 600;
+}
+
+.navbar-t:hover{
+  text-decoration: none;
+  color: #5cce98;
+  transition: 0.6s;
+}
+
+/* right-nav */
+
+.right-nav{
+  padding-top: 260px;
+}
+
+.nav-img{
+  margin-top: 13px;
+}
+
+/* MENU */
+.menu{
+  position: absolute;
+  text-align: center;
+  margin-top: 100px;
+  width: 90%;
+  margin-left: 5%;
+  background-color: #ffffff;
+}
+
+
+
+
+.menu-content h1{
+  margin-top: 50px;
+  margin-bottom: 100px;
+  font-family: 'Dancing Script', cursive;
+  transform: rotate(-7deg);
+  color:  #5cce98;
+  font-size: 50px;
+  text-align: center;
+}
+
+.menu-sub{
+  text-align: left;
+  border-top: 3px solid #5cce98;
+  border-bottom: 3px solid #5cce98;
+  margin-left: 5%;
+  width: 90%;
+  margin-bottom: 80px;
+}
+
+.menu-sub h2{
+  font-family: 'Cairo', sans-serif;
+  font-weight: 900;
+  color: #5cce98;
+  font-size: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.menu-food{
+  text-align: left;
+  margin-left: 5%;
+  margin-bottom: 50px;
+}
+
+.menu-food p{
+  color: #5cce98;
+  font-size: 22px;
+}
+
+.menu-food small{
+  font-size: 15px;
+  color: #5cce98;
+  mar
+}

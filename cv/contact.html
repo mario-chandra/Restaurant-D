@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-3.2.1.js"></script>
+    <link href='https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;600&display=swap' rel='stylesheet'>
+    <title>Saya Mario Chandra</title>
+    <style type="text/css">
+      body{
+        font-family: 'Roboto Slab', serif;
+        font-weight: 200;
+        letter-spacing: 1.2px;
+      }
+      .bg-red{
+        background-color: #e83556
+      }
+      .bg-gray{
+        background-color: #eae5e5
+      }
+      input, textarea{
+        background-color: #e83556;
+        color: white;
+        width: 100%;
+        margin-top: 1%;
+        padding: 3px;
+      }
+      footer{
+        margin-top: 90px;
+        background-color: #e83556;
+        padding-bottom: 10px;
+      }
+
+      .information{
+
+      }
+
+      .information-content h4 {
+
+         font-size: 16px;
+         margin: 0;
+         color: white;
+         font-weight: bold;
+
+      }
+
+
+      .information-content p ,.information-content span ,.information-content-b span {
+        font-size: 12px;
+        color: white;
+
+      }
+
+      .sub-information{
+        margin-top: 20px;
+        width: 100%;
+
+      }
+
+      .sub-information img{
+        margin-left: 25%;
+        color: white;
+        margin-right: 16px;
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+
+      }
+
+      .information-content-b h4 {
+        margin-bottom: -30px;
+         font-size: 16px;
+         margin: 0;
+         color: white;
+         font-weight: bold;
+
+      }
+
+
+      .information-content-c p {
+        margin-top: 20px;
+        font-size: 12px;
+        color: white;
+
+      }
+
+
+      .form-cv{
+        margin-top: 60px;
+      }
+
+      .cv-image2 {
+        width: 45%;
+        margin-top: 70px;
+        margin-left: 80px;
+
+      }
+
+      .cv-image2 h1{
+        margin-left: 100px;
+        font-size: 60px;
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container cv-nav d-flex">
+      <div class="cv-name">
+        <h1>Mario Chandra</h1>
+        <p><b>Web Developer/ Student</b></p>
+      </div>
+      <div class="navbar">
+        <a class="nav-link" href="index.html">HOME</a>
+        <a class="nav-link" href="resume.html">RESUME</a>
+        <a class="nav-link" href="resume.html">SKILL</a>
+        <a class="nav-link" href="contact.html">CONTACT</a>
+      </div>
+    </div>
+
+
+  <body class="bg-gray">
+    <div style="padding: 200px; padding-top: 100px; padding-bottom: 80px">
+      <div class="row">
+         <div class="col-6"><h1 style="font-size: 70px">CONTACT</h1></div>
+         <div class="col-6">
+            <small>Looking forward to answering your email</small><br>
+           <input type="text" id="name" name="name" placeholder="Name">
+           <input type="text" id="email" name="email" placeholder="Email">
+           <input type="text" id="phone" name="phone" placeholder="Phone">
+           <textarea type="textarea" rows="4" id="message" name="message" placeholder="Type your message here"></textarea>
+           <div class="text-right"><a href="#" style="text-decoration: none; font-size: 18px; color: black">Submit</a></div>
+         </div>
+      </div>
+    </div>
+
+
+      <footer>
+        <div class="d-flex;">
+          <div class="information container d-flex">
+            <div class="sub-information d-flex">
+              <img src="../img/crop/phone.png" alt="">
+              <div class="information-content">
+                <h4>Call</h4>
+                <span>P :0821-3718-8055</span>
+                <p>F :0821-3718-8055</p>
+              </div>
+            </div>
+            <div class="sub-information d-flex">
+              <img src="../img/crop/email.png" alt="">
+              <div class="information-content-b">
+                <h4>Contact</h4>
+                <span>mariochandra01@gmail.com</span>
+
+              </div>
+            </div>
+            <div class="sub-information d-flex">
+              <img src="../img/crop/follow.png" alt="">
+              <div class="information-content">
+                <h4> follow me</h4>
+                <div class="d-flex">
+                  <a href=""> <img src="../img/logo/instagram.png" style="width:16px; height:16px;"alt=""> </a>
+                  <a href=""> <img src="../img/logo/facebook.png" style="width:16px; height:16px;"alt=""> </a>
+                </div>
+
+              </div>
+            </div>
+            <div class="sub-information d-flex">
+              <img src="../img/crop/copyright.png" alt="">
+              <div class="information-content-c">
+                <p>© 2020 By Mario Chandra</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </footer>
+
+
+
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="script.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

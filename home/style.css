@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@700;800&display=swap:Bitter&display=swap:Bitter&family=Cairo:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+/* ANIMATION */
+
+.team-area{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.single-team{
+  position: relative;
+  align-items: flex-end;
+  transition: .6s ease-out;
+  box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+
+.single-team:hover{
+  transform: translateY(15px);
+}
+
+
+.single-team:hover .team-text{
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+/*  */
+body{
+
+}
+
+/* headline */
+
+.headline{
+  background-image: url('../img/food/food3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+
+}
+
+/* top nav */
+
+.header-nav{
+  position: fixed;
+  width: 100%;
+  padding-right: 40px;
+}
+
+.nav-headline{
+  margin-top: 10px;
+  margin-right: 50px;
+
+}
+.navbar-t{
+  font-size: 14.5px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.button-promo{
+  background-color:#5cce98;
+  border: none;
+  color: #ffffff;
+  font-size: 14.5px;
+  padding: 10px 10px 10px 10px;
+}
+
+.button-promo:hover{
+  background-color: #ffffff;
+  color: #5cce98;
+  transition: 0.4s;
+}
+
+.navbar-t:hover{
+  text-decoration: none;
+  color: #5cce98;
+  transition: 0.6s;
+}
+
+/* right-nav */
+
+.right-nav{
+  padding-top: 260px;
+}
+
+.nav-img{
+  margin-top: 13px;
+}
+
+/* title */
+
+.res-name{
+  text-align: center;
+  padding-top: 340px;
+  padding-bottom: 60px;
+
+}
+
+.title-name1{
+  font-size: 140px;
+  color: #ffffff;
+  font-family: 'Dancing Script', cursive;
+  transform: rotate(-8deg);
+}
+
+.title-name2{
+  margin-top: 40px;
+  font-weight: Bold ;
+  font-size: 36px;
+  color: #ffffff;
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+.title-name3{
+  margin-top: 18px;
+  font-size: 24px;
+  color: #ffffff;
+  font-family: 'arial'
+
+}
+
+/* TESTIMONI */
+
+
+
+.testimoni{
+  width: 100%;
+  background-color: #ff7448;
+  padding-top: 30px;
+  padding-bottom: 140px;
+}
+
+.testimoni-content{
+  text-align: center;
+}
+
+.testi-title{
+  padding-top: 70px;
+  padding-bottom: 30px;
+  font-style: italic;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+  color: #ffffff;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.testi-text{
+  text-align: center;
+  width: 100%;
+}
+.testi-face1{
+  border-radius: 100%;
+  width: 140px;
+  height: 120px;
+
+}
+
+
+.testi-face2{
+  border-radius: 100%;
+  width: 140px;
+  height: 120px;
+}
+
+.testimoni-text{
+  font-style: italic;
+  margin-top: 30px;
+  color: white;
+}
+
+.credit1{
+  font-size: 15px;
+  color: white;
+}
+
+.credit2{
+  font-size: 15px;
+  color: white;
+}
+
+.credit3{
+  font-size: 15px;
+  color: white;
+}
+
+.text-padding{
+  padding-right: 50px;
+}
+
+
+/* FOOD DISPLAY */
+
+.food-display{
+  background-color: #ffffff;
+  padding-top: 200px;
+  padding-bottom: 150px;
+  text-align: center;
+}
+
+.row-position{
+  padding-left: 70px;
+  padding-right: 70px;
+}
+
+.food-row1{
+  width: 250px;
+  height: 220px;
+
+}
+
+.food-row2{
+  width: 250px;
+  height: 220px;
+
+}
+
+.food-row2:hover, .food-row1:hover{
+
+  background: linear-gradient(to top, #000, transparent);
+
+  transition: 0.5s;
+  opacity: 0.5;
+}
+
+.row-position2{
+  padding-left: 70px;
+  margin-top: 60px;
+  padding-right: 70px;
+}
+
+/* Why us */
+
+.parallax {
+  background-image: url('../img/food/pantai.jpg');
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  background-image: url('../img/food/pantai.jpg');
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.why-us{
+  background-color: #3dd0de;
+  text-align: center;
+
+}
+
+.hello{
+  padding-top: 60px;
+  padding-bottom: 100px;
+  width: 56%;
+}
+
+.why-us-content{
+  color: #ffffff;
+}
+
+.why-us-title{
+  font-family: 'Dancing Script', cursive;
+  font-size: 55px;
+  margin-bottom: 40px;
+}
+
+.col-sm h2{
+  padding-top: 25px;
+  font-size: 30px;
+  font-family: 'Bitter', serif;
+  margin-bottom: 20px;
+}
+
+.col-sm p{
+
+  font-size: 16px;
+  font-family: 'Cairo', sans-serif;
+  margin-bottom: 20px;
+}
+
+/* FOOTER  */
+
+footer{
+  background-color: #5cce98;
+
+}
+
+.footer-display{
+  padding-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 80%;
+  color: #ffffff;
+}
+
+
+.footer-title{
+  font-family: 'Dancing Script', cursive;
+  margin-right: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-text{
+
+}
+
+.footer-content{
+  text-align: center;
+  background-color: black;
+
+}
+
+.about{
+  text-align: center;
+
+}
+
+.subscribe{
+  text-align: center;
+}
+
+.content-title{
+  font-family: 'PT Serif', serif;
+  margin-bottom: 30px;
+}
+
+.spam{
+  font-size: 2px;
+}
+
+.email{
+  font-size: 1;
+}
+
+.logo-hori{
+  text-align: center;
+}
+
+.btn-color{
+  color: white;
+
+}
+
+.copyright{
+  text-align: center;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+
+.cv-link{
+   color: #ffffff;
+
+}
+
+.cv-link:hover{
+   color: #ffffff;
+   text-decoration: none;
+   transition: 2s;
+   font-size: 14px;
+}
